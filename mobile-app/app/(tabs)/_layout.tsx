@@ -40,6 +40,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="compList"
+        options={{
+          title: 'Components',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="rocket.fill" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
